@@ -8,7 +8,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <main class="wrapper">
+      <main className="wrapper">
       <Toolbar></Toolbar>
       <Section1></Section1>
       <Section2></Section2>

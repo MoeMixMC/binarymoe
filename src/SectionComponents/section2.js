@@ -5,7 +5,9 @@ function Section2() {
   return (
     <div className="Section2">
         <section className="section static">
-            <h1>Boring</h1>
+            <div className='sec2card'>
+              Hello
+            </div>
         </section>
     </div>
   );

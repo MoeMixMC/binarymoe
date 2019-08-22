@@ -4,17 +4,15 @@ import '../App.css';
 function Section1() {
   return (
     <div className="Section1">
-        <section className="section parallax bg1">
-          <h1>MoeMix</h1>
-          <div className="sec1card">
-            <h4>Mohamed Abdalla</h4>
-            <p>Software Developer</p>
-          </div>
-          <div className='intro'>
-            <h2>
-              My name is Mohamed Abdalla<br />just a somewhat functional assortment of a billion billion atoms.
-            </h2>
-          </div>
+        <section className="section sec1">
+        <div class="container demo">
+   <div class="content">
+      <div id="large-header" class="large-header">
+         <canvas id="demo-canvas"></canvas>
+         <h1 class="main-title"><span class="thin">Explore</span> Space</h1>
+      </div>
+   </div>
+</div>
         </section>
     </div>
   );
